@@ -1,7 +1,7 @@
 Ractive.decorators.autoNumeric = function (node, relativeKeypath, boundValue) {
     var self = this,
         $el = $(node),
-        context = this.getContext(node),
+        context = self.getContext(node),
         updateModel = function () {
             context.set(relativeKeypath, $el.autoNumeric('getNumber'));
         };
@@ -14,7 +14,7 @@ Ractive.decorators.autoNumeric = function (node, relativeKeypath, boundValue) {
         throw new Error('Invalid number of arguments specified. Correct usage: as-autoNumeric="\'relativeKeypath\', relativeKeypath"');
     }
 
-    if (Ractive.getContext(node).isBound()) {
+    if (context.isBound()) {
         throw new Error('You cannot use two-way binding for the "autoNumeric" decorator.');
     }
 
