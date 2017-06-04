@@ -1,0 +1,23 @@
+{
+  "name": "ractive-autonumeric",
+  "version": "0.0.0",
+  "description": "A Ractive.js decorator for jQuery autoNumeric plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monoblaine/ractive-autoNumeric.git"
+  },
+  "keywords": [
+    "ractive.js",
+    "autoNumeric"
+  ],
+  "author": "Serhan Apaydın (https://github.com/monoblaine)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monoblaine/ractive-autoNumeric/issues"
+  },
+  "homepage": "https://github.com/monoblaine/ractive-autoNumeric#readme"
+}
