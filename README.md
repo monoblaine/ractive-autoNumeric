@@ -4,7 +4,7 @@ This is a [Ractive.js](https://ractive.js.org/) decorator for [autoNumeric](http
 
 # Demo
 
-http://jsfiddle.net/monoblaine/6kb433Lt/20/
+http://jsfiddle.net/monoblaine/6kb433Lt/21/
 
 # Usage
 
