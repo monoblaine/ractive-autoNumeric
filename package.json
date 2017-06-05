@@ -1,6 +1,6 @@
 {
   "name": "ractive-autonumeric",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Ractive.js decorator for jQuery autoNumeric plugin",
   "main": "index.js",
   "scripts": {
