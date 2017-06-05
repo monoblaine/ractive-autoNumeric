@@ -1,4 +1,4 @@
-Ractive.decorators.autoNumeric = function (node, relativeKeypath, boundValue) {
+Ractive.decorators.autoNumeric = function (node, relativeKeypath, boundValue, autoNumericCfg) {
     var self = this,
         $el = $(node),
         context = self.getContext(node),
@@ -18,7 +18,7 @@ Ractive.decorators.autoNumeric = function (node, relativeKeypath, boundValue) {
         throw new Error('You cannot use two-way binding for the "autoNumeric" decorator.');
     }
 
-    $el.autoNumeric('init')
+    $el.autoNumeric('init', autoNumericCfg)
        .autoNumeric('set', boundValue)
        .on('input', updateModel);
 
