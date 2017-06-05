@@ -10,8 +10,8 @@ Ractive.decorators.autoNumeric = function (node, relativeKeypath, boundValue, au
         throw new Error('The binding name is required.');
     }
 
-    if (arguments.length !== 3) {
-        throw new Error('Invalid number of arguments specified. Correct usage: as-autoNumeric="\'relativeKeypath\', relativeKeypath"');
+    if (arguments.length < 3) {
+        throw new Error('Invalid number of arguments specified. Correct usage: as-autoNumeric="\'relativeKeypath\', relativeKeypath, autoNumericCfg"');
     }
 
     if (context.isBound()) {
